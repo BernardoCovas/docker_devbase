@@ -6,12 +6,15 @@ RUN apt install -y      \
     vim                 \
     binutils            \
     build-essential     \
+    cmake               \
     ninja-build         \
     python              \
     python-pip          \
     python3             \
     python3-pip         \
-    git
+    git                 \
+    flex                \
+    bison
 
 RUN useradd -m dev && echo "dev:dev" | chpasswd && adduser dev sudo
 
