@@ -1,5 +1,6 @@
 FROM ubuntu
 
+RUN unminimize
 RUN apt update && apt upgrade -y
 RUN apt install -y      \
     sudo                \
