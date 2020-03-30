@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt update && apt upgrade -y
-RUN unminimize
+RUN yes | unminimize
 RUN apt install -y      \
     sudo                \
     tmux                \
