@@ -16,7 +16,9 @@ RUN apt install -y      \
     python3-pip         \
     git                 \
     flex                \
-    bison
+    bison               \
+    gcc                 \
+    gdb
 
 RUN useradd -m dev && echo "dev:dev" | chpasswd && adduser dev sudo
 
