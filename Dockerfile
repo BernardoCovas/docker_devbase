@@ -11,7 +11,6 @@ RUN apt install -y      \
     cmake               \
     ninja-build         \
     python              \
-    python-pip          \
     python3             \
     python3-pip         \
     git                 \
