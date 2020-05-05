@@ -19,7 +19,8 @@ RUN apt install -y      \
     flex                \
     bison               \
     gcc                 \
-    gdb
+    gdb                 \
+    htop
 
 RUN useradd -m dev && echo "dev:dev" | chpasswd && adduser dev sudo
 
