@@ -9,6 +9,7 @@ RUN apt install -y      \
     tmux                \
     vim                 \
     binutils            \
+    file                \
     build-essential     \
     cmake               \
     ninja-build         \
