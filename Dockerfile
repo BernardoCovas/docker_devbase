@@ -8,6 +8,7 @@ RUN apt install -y      \
     sudo                \
     tmux                \
     vim                 \
+    wget                \
     binutils            \
     file                \
     build-essential     \
